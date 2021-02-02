@@ -7,8 +7,6 @@ MITM = api.xiuxiu.meitu.com
 */
 
 
-var obj = JSON.parse($response.body);
+let obj = JSON.parse($response.body);
 obj.data.vip_type = 1;
-
-
-$done({body: JSON.stringify(obj)}); 
+$done({body:JSON.stringify(obj)});
