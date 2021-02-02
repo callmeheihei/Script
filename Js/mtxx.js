@@ -6,10 +6,6 @@ QX:
 MITM = api.xiuxiu.meitu.com
 */
 
-
-let obj = JSON.parse($response.body);
-obj.data.vip_type = 1;
-$done({body:JSON.stringify(obj)});
 obj ={
   "degrade": 0,
   "ret": 0,
@@ -20,7 +16,7 @@ obj ={
     "uid": 1794626726,
     "mt_num": 0,
     "type": 0,
-    "screen_name": "黑黑酱",
+    "screen_name": "",
     "core": false,
     "avatar_url": "http://maavatar1.meitudata.com/5fbde7a5c10621905.jpg",
     "gender": "f",
