@@ -1,6 +1,6 @@
 {
-            "id": "hu_mmmjie.app.sub",
-            "name": "hi_mmmjie 应用订阅",
+            "id": "callmeheihei.app.sub",
+            "name": "callmeheihei 应用订阅",
             "author": "@hi_mmmjie",
             "icon": "https://avatars2.githubusercontent.com/u/53217160",
   "repo": "https://github.com/NobyDa/Script/tree/master",
@@ -8,16 +8,16 @@
             "id": "52pojie",
             "name": "吾爱破解",
             "keys": ["CookieWA1","CookieWA2"],
-            "author": "@hi_mmmjie",
+            "author": "@callmeheihei",
             "settings": [{
-            "id": "52pojie",
+            "id": "52pojiesetting",
             "name": "当前账号",
             "val": "1",
             "type": "number",
             "desc": "当前账号对应"
     },
     {
-            "id": "52pojie",
+            "id": "52pojiecount",
             "name": "账号个数",
             "val": "1",
             "type": "number",
