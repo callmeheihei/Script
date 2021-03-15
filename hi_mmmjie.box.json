@@ -1,0 +1,30 @@
+{
+            "id": "hu_mmmjie.app.sub",
+            "name": "hi_mmmjie 应用订阅",
+            "author": "@hi_mmmjie",
+            "icon": "https://avatars2.githubusercontent.com/u/53217160",
+  "repo": "https://github.com/NobyDa/Script/tree/master",
+            "apps": [{
+            "id": "52pojie",
+            "name": "吾爱破解",
+            "keys": ["CookieWA1","CookieWA2"],
+            "author": "@hi_mmmjie",
+            "settings": [{
+            "id": "52pojie",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前账号对应"
+    },
+    {
+            "id": "52pojie",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "需要几个账号，数字为几"
+    }],
+            "script": "https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js",
+    "author": "@NobyDa",
+    "repo": "https://github.com/NobyDa/Script/blob/master/52pojie-DailyBonus/52pojie.js",
+    "icons": ["https://raw.githubusercontent.com/NobyDa/mini/master/Alpha/52pj.png", "https://raw.githubusercontent.com/NobyDa/mini/master/Color/52pj.png"]
+  }
