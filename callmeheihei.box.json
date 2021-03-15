@@ -1,6 +1,6 @@
 {
-            "id": "callmeheihei.app.sub",
-            "name": "callmeheihei 应用订阅",
+            "id": "xxx.app.sub",
+            "name": "xxx 应用订阅",
             "author": "@hi_mmmjie",
             "icon": "https://avatars2.githubusercontent.com/u/53217160",
   "repo": "https://github.com/NobyDa/Script/tree/master",
@@ -8,7 +8,7 @@
             "id": "52pojie",
             "name": "吾爱破解",
             "keys": ["CookieWA1","CookieWA2"],
-            "author": "@callmeheihei",
+            "author": "@xxx",
             "settings": [{
             "id": "52pojiesetting",
             "name": "当前账号",
@@ -24,7 +24,9 @@
             "desc": "需要几个账号，数字为几"
     }],
             "script": "https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js",
-    "author": "@hi_mmmjie",
+    "author": "@xxx",
     "repo": "https://github.com/NobyDa/Script/blob/master/52pojie-DailyBonus/52pojie.js",
-    "icons": ["https://raw.githubusercontent.com/NobyDa/mini/master/Alpha/52pj.png", "https://raw.githubusercontent.com/NobyDa/mini/master/Color/52pj.png"]
-  }
+    "icons": ["https://raw.githubusercontent.com/NobyDa/mini/master/Alpha/52pj.png", "https://raw.githubusercontent.com/NobyDa/mini/master/Color/52pj.png"
+    }
+]
+}
