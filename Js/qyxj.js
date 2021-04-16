@@ -8,20 +8,19 @@ MITM:commerce-api.faceu.mobi
 
 */
 
-const path1 = "v1/subscription/user_info";
+const path1 = "/commerce/v1/subscription/user_info";
 
 let obj = JSON.parse($response.body);
+
 if ($request.url.indexOf(path1) != -1){
+obj.data.start_time = 1584674770;
+obj.data.end_time = 4077660370;
+obj.data.is_cancel_subscribe = true;
+obj.data.flag = true;
+}
 
-	obj.data.user_info["flag"] = "true";
 
-	obj.data.user_info["start_time"] = "1587654321";
-
-	obj.data.user_info["end_time"] = "1975566110";
-	obj.data.user["is_cancel_subscribe"] = "true";
-把
 if ($request.url.indexOf(ad) != -1) {
 
 }
 $done({body: JSON.stringify(obj)});
-
