@@ -10,6 +10,9 @@ MITM:commerce-api.faceu.mobi
 
 const path1 = "v1/subscription/user_info";
 
+let obj = JSON.parse($response.body);
+if ($request.url.indexOf(path1) != -1){
+
 	obj.data.user_info["flag"] = "true";
 
 	obj.data.user_info["start_time"] = "1587654321";
