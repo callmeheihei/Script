@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/integral2\.(dasyibalang|zhijiantime)\.com\/.+\/v2\/Userurl script-response-body https://raw.githubusercontent.com/callmeheihei/Script/master/zjsg.js
+^https?:\/\/integral2\.(dasyibalang|zhijiantime)\.com\/.+\/v2\/User url script-response-body https://raw.githubusercontent.com/callmeheihei/Script/master/zjsg.js
 
 [mitm]
 hostname = integral2.*.com
