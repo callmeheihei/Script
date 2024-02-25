@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/integral2\.(dasyibalang|zhijiantime)\.com\/.+\/v2\/User
+^https?:\/\/integral2\.(dasyibalang|zhijiantime)\.com\/.+\/v2\/Userurl script-response-body 
 
 [mitm]
 hostname = integral2.*.com
